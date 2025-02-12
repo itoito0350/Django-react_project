@@ -1,0 +1,18 @@
+{% extends 'comunication/base.html' %}
+
+{% block title %}Notificaciones - Mi gimnasio{% endblock %}
+
+{% block heading %}Tus notificaciones{% endblock %}
+
+{% block content %}
+    <h2>Notificaciones no leídas</h2>
+    <ul>
+        {% for notification in notifications %}
+            <li>
+                {{ notification.message }}
+            </li>
+        {% empty %}
+            <li>No tienes notificaciones nuevas.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

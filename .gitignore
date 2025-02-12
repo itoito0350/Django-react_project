@@ -1,0 +1,38 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyd
+
+# VS Code
+.vscode/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+/media
+
+# Pytest
+.pytest_cache/
+*.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Env files
+.env
+*.env
+*.venv
+venv/
+env/
+.venv/
+
+# Ignorar settings.py
+backend/settings.py
+
+# Node modules (para el frontend )
+node_modules/
