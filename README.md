@@ -3,6 +3,8 @@
 
 Plataforma web para un gimnasio que incluye funcionalidades para gestionar usuarios, reservas de clases, pagos, entre otras. La aplicación utiliza **Django** en el backend y **React** con **Vite** en el frontend, con tecnologías modernas como **JWT** para autenticación, **WebSockets** para chat en vivo y **Celery** para tareas asíncronas.
 
+![Demo de la app](assets/gym00.gif)
+
 ## 🚀 Tecnologías Utilizadas
 
 ### Backend:
@@ -57,3 +59,5 @@ En futuras versiones, se implementará una aplicación móvil utilizando **React
 - 🎨 **Interfaz optimizada** para dispositivos móviles con un diseño intuitivo.  
 
 ¡Mantente atento a las próximas actualizaciones! 🚀  
+
+
