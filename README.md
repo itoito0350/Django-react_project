@@ -15,6 +15,7 @@ Plataforma web para un gimnasio que incluye funcionalidades para gestionar usuar
 - **Celery**: Para gestionar tareas asíncronas.
 - **WebSockets**: Para funcionalidades de chat en vivo.
 
+
 ### Frontend:
 - **React**: Framework para la creación de interfaces de usuario interactivas.
 - **Vite**: Herramienta de construcción rápida y optimizada para aplicaciones con React.
@@ -23,20 +24,10 @@ Plataforma web para un gimnasio que incluye funcionalidades para gestionar usuar
 - **React Router DOM**: Para la navegación y gestión de rutas en el frontend.
 - **Context API**: Para la gestión del estado global de la aplicación.
 
+
 ### Testing:
 - **pytest**: Framework de pruebas para realizar testing en el backend.
 
-### Backend:
-- **API RESTful** para gestionar usuarios, clases, pagos, etc.
-- **Autenticación con JWT** utilizando el paquete **SimpleJWT**.
-- **Soporte para tareas asíncronas** usando **Celery** (por ejemplo, para notificaciones o procesos largos).
-- **Chat en vivo** utilizando **WebSockets**.
-  
-### Frontend:
-- **UI interactiva** construida con **React** y **Vite**.
-- **Formularios dinámicos** usando **React Hook Form**.
-- **Navegación** y **rutas** gestionadas con **React Router DOM**.
-- **Diseño responsive** con **Tailwind CSS**.
 
 ## 🚀 Instalación
 
@@ -45,6 +36,7 @@ Plataforma web para un gimnasio que incluye funcionalidades para gestionar usuar
 - Node.js (para el frontend)
 - PostgreSQL (si prefieres usar PostgreSQL en lugar de SQLite)
 - Redis (si usas Celery)
+
   
 ## 📱 Futuras Expansiones  
 
