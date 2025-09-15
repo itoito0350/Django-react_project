@@ -26,10 +26,6 @@ Plataforma web para un gimnasio que incluye funcionalidades para gestionar usuar
 ### Testing:
 - **pytest**: Framework de pruebas para realizar testing en el backend.
 
-## 🚧 Estado Actual del Proyecto
-
-Actualmente, el proyecto se encuentra en su fase de **desarrollo**. El **backend** está funcional, y el **frontend** se encuentra en progreso. A continuación, se detallan las funcionalidades disponibles y las que están por desarrollarse.
-
 ### Backend:
 - **API RESTful** para gestionar usuarios, clases, pagos, etc.
 - **Autenticación con JWT** utilizando el paquete **SimpleJWT**.
